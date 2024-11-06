@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net_service_d09.console.template", "net_service_d09.console.template.csproj", "{52DE6A9F-B392-4863-B4AB-61BE3835F587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DE6A9F-B392-4863-B4AB-61BE3835F587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DE6A9F-B392-4863-B4AB-61BE3835F587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DE6A9F-B392-4863-B4AB-61BE3835F587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DE6A9F-B392-4863-B4AB-61BE3835F587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EBE0C23-2FA9-4079-9AB4-ED159A9EBA1D}
+	EndGlobalSection
+EndGlobal
