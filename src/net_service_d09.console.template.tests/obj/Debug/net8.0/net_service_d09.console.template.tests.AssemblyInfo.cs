@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("net_service_d09.console.template.tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5a7bb629e0fbef9fc88015c84064ef60e570a3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9fea3eb1734bfcf8071ec6fd4661a6a74765613")]
 [assembly: System.Reflection.AssemblyProductAttribute("net_service_d09.console.template.tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("net_service_d09.console.template.tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
