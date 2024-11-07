@@ -8,3 +8,7 @@
 /src/obj/Debug/net8.0/net_service_d09.console.template.AssemblyInfo.cs
 src/obj/Debug/net8.0/net_service_d09.console.template.AssemblyInfo.cs
 src/obj/Debug/net8.0/net_service_d09.console.template.AssemblyInfoInputs.cache
+/src/obj
+/src/net_service_d09.console.template.tests/bin
+/src/net_service_d09.console.template.tests/obj
+/src/net_service_d09.console.template.tests/obj
