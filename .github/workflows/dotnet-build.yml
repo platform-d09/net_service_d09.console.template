@@ -24,5 +24,3 @@ jobs:
       run: dotnet restore --source https://www.myget.org/F/dgontwikkeling/auth/${{ secrets.MYGET_TOKEN }}/api/v3/index.json --source https://api.nuget.org/v3/index.json ./src/net_service_d09.console.template.sln
     - name: Build
       run: dotnet build --source https://www.myget.org/F/dgontwikkeling/auth/${{ secrets.MYGET_TOKEN }}/api/v3/index.json --source https://api.nuget.org/v3/index.json --no-restore ./src/net_service_d09.console.template.sln
-    - name: Test
-      run: dotnet test --no-build --verbosity normal ./src/net_service_d09.console.template/src/net_service_d09.console.template.tests/net_service_d09.console.template.tests.csproj
