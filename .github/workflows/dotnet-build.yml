@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v4
@@ -51,6 +51,6 @@ jobs:
 
     ## Build Step
     - name: Restore dependencies     
-      run: dotnet restore --source https://www.myget.org/F/dgontwikkeling/auth/${{ secrets.MYGET_TOKEN }}/api/v3/index.json --source https://api.nuget.org/v3/index.json ./src/net_service_d09.console.template.sln
+      run: dotnet restore --source https://www.myget.org/F/dgontwikkeling/auth/${{ secrets.MYGET_TOKEN }}/api/v3/index.json --source https://api.nuget.org/v3/index.json .\src\net_service_d09.console.template.sln
     - name: Build
-      run: dotnet build --source https://www.myget.org/F/dgontwikkeling/auth/${{ secrets.MYGET_TOKEN }}/api/v3/index.json --source https://api.nuget.org/v3/index.json --no-restore ./src/net_service_d09.console.template.sln
+      run: dotnet build --source https://www.myget.org/F/dgontwikkeling/auth/${{ secrets.MYGET_TOKEN }}/api/v3/index.json --source https://api.nuget.org/v3/index.json --no-restore .\src\net_service_d09.console.template.sln
