@@ -11,8 +11,6 @@ on:
 
 jobs:
   ## Add release version
-  call-workflow:
-    uses: platform-d09/ci-workflows/.github/workflows/release-please.yml@v1
   build:
 
     runs-on: windows-latest
