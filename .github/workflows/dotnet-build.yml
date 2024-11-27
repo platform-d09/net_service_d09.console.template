@@ -46,7 +46,7 @@ jobs:
       shell: powershell
       run: |
         .\.sonar\scanner\dotnet-sonarscanner begin /k:"platform-d09_net_service_d09.console.template_f4d904f4-5583-4737-8ab3-0e0a8087aa13" /d:sonar.token="${{ secrets.SONARQUBE_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
-        dotnet build
+        dotnet build  .\src\net_service_d09.console.template.sln
         .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
     ## Build Step
